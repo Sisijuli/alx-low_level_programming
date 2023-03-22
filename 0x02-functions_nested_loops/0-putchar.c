@@ -1,16 +1,17 @@
 #include "main.h"
 /**
- * main - Entry point
+ * main - program prints _putchar followed by a new line
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	char *sh = "_putchar";
+	char name[8] = "_putchar";
+	int i = 0
 
-	while (*sh)
+	while (i < 8)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar (name[i]);
+		i++;
 	}
 	_putchar('in');
 	return (0);
