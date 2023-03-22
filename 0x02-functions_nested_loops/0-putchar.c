@@ -5,14 +5,13 @@
  */
 int main(void)
 {
-	char name[8] = "_putchar";
-	int i = 0
-
-	while (i < 8)
-	{
-		_putchar (name[i]);
-		i++;
-	}
-	_putchar('in');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	return (0);
 }
